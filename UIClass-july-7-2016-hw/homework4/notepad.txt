@@ -1,0 +1,89 @@
+
+
+
+
+1) Differences between "display : none" and "visibility : hidden" ?
+
+Ans: Display and visibility are the properties of CSS. 
+     Display Property: One of the important property of Css, specifies how an element is displayed.
+
+     Visibility Property: It specifies whether or not an element is visible while leaving the space where it would have been. It affects the layout.
+
+     display : none --> It makes the element not to be the participant of the layout. It simply removes the elements visual style/physical space. It descendant(childs) of the elements are also not displayed.
+
+     visibility : hidden --> It makes the element completely invisible but still affects layout. Descendants(childs) of the element will be visible if they hava visibility : visible. 
+
+
+
+  2) display property values, inline, inline-block, block
+
+Ans: display : inline --> To display an element as an inline element. Eg: <span>
+
+	 display : inline-block --> To display an element as an inline element with a block container. 
+
+	 display : block -->  To display an element as a block element. Eg: <p>
+	 	
+
+
+3) what is inline css, internal css, external css, look into which one is better. which one is recommended way
+
+Ans: Inline css: This style is specific to the tag itself. This type is good for an individual which is not repeatedly used 				 throughout the file.
+
+     Internal css: This style is placed in the head section of a particular file. This makes us easy to apply style for multiple elements using class and id.
+
+     External css: This style is a "global" site change. The external css is using a .css file that we link to our website, whenever we make a change in this .css file every page in the website which is linked with this is changed. This prevents us to avoid changes in each single page.
+
+     External is more recommended as you change one page - the entire look of the website changes.
+
+
+4) css properties reference
+	
+Ans: There are a huge properties, The most commomly/frequently used properties are:
+	 (1) display: display takes many values but the most common are
+	 		display: none;
+	 		display: inline-block;
+	 		display: inline;
+	 		display: block;	
+
+	  (2) float: Defines if a <div> or <img> should float to the left or to the right ,
+	   		float: left;
+	   		float: right;
+
+	  (3) padding: Defines padding for all four sides in one decleration. First --> top padding, second --> right padding, third --> bottom padding, fourth --> left padding.
+	  		eg: {padding: 10px 20px 30px 40px}
+	  (4) clear: Defines the side/sides another floating HTML element is/not allowed to be positioned.
+	  		eg: {clear: left;}
+	  			{clear: right;}
+	  			{clear: both;}
+
+	  (5) background-color: Defines the background color of a <div> or <body> element. The colour may be specified using one of the predefined HTML color names, hex value or RGB value, 	
+	  		eg: {background-color: silver;}, {background-color: #c0c0c0;} or {background-color: rgb(192,192,192);}.
+
+	  (6) border: Defines the border for all four sides of a <div> in one declaration. First value relates to border width, second value to border style and third value to border colour
+	  		 eg: {border: 2px solid silver;}.	
+
+	  (7) color: Defines the text colour. The colour may be specified using one of the predefined HTML color names, hex value or RGB value,
+	   		 eg: {background-color: blue;}, {background-color: #000080;} or {background-color: rgb(0,0,128);}.	
+
+	  (8) text-align: Aligns content, not only text, within an HTML element, 
+	  		 eg: {text-align: left;}
+	  		     {text-align: center;}
+	  		     {text-align: right;}
+		     		 		 		
+
+5) CSS Specificity (important)
+
+Ans: (1) Specifity determines which css rules are applied. 
+
+     (2) If multiple selectors are applied on the same element the one with the highest specifity is applied.
+
+     (3) If multile selectors with same specifity are applied to one elememt the one with which is last will be applied, i.e the last one will override.
+
+     (4) The specifity level of a selector is made into 4 categories
+     		inline styles
+     		ID's
+     		classes, attributes & pseudo-classes
+     		elements & pseudo-elements
+
+
+
