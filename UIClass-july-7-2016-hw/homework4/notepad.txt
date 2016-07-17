@@ -69,7 +69,7 @@ Ans: There are a huge properties, The most commomly/frequently used properties a
 	  		 eg: {text-align: left;}
 	  		     {text-align: center;}
 	  		     {text-align: right;}
-		     		 		 		
+
 
 5) CSS Specificity (important)
 
@@ -85,5 +85,6 @@ Ans: (1) Specifity determines which css rules are applied.
      		classes, attributes & pseudo-classes
      		elements & pseudo-elements
 
+     (5) The !important value appended a CSS property value is an automatic win. It overrides even inline styles. The only way an !important value can be overridden is with another !important rule declared later in the CS
 
 
