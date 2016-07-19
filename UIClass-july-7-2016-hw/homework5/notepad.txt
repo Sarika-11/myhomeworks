@@ -1,0 +1,44 @@
+
+
+1) What are selectors in css? Explain all selectors by an example?
+
+Ans: Class Selectors: Uses the class attribute and can apply css for multiple elements.
+
+	 Id Selectors: Uses an id attribute can apply css to one element.
+
+	 Attribute Selectors: 
+	 		(i) [attribute-name] : Selects all elements with this attribute name.
+
+	 		(ii) [attribute=value] : 
+
+	 Pseudo-classes selectors:
+	 		(i) :link --> Use this class to add special style to an unvisited link. 
+
+	 		(ii) :visited --> Use this class to add special style to a visited link.
+
+	 		(iii) :hover --> Use this class to add special style to an element when you mouse over it.
+
+	 		(iv) :active --> Use this class to add special style to an active element.
+
+	 		(v) :focus --> Use this class to add special style to an element while the element has focus.
+
+	 		(vi) :lang --> Use this class to add special style to an element that is the first child of some other element.
+
+	 		(vii) :first-child --> Use this class to add special style to an element that is the first child of some other element.
+
+
+
+	 Selectors based on relationships:
+	 		(i) element : Selects that particular element and applies css to it.
+
+	 		(ii)element,element : Selects both the elements and css is applied to it.
+
+	 		(iii)element1 element2 : Selects element2 which is the child of element1.
+
+	 		(iv)element1>element2 : Selects element2 which is the direct child of element1.
+
+	 		(v) element1+element2 : Selects element2 that is the next sibling of a element1 i.e next child of the same parent. 
+
+	 		(vi)element1~element2 : Selects every element2 that is preceded by element1.
+
+	 		(vii)element1:first-child : Selects any element1 that is the first child of its parent.

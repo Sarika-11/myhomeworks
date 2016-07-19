@@ -1,0 +1,66 @@
+.class-attribute{
+					color:green;
+					background-color: orange;
+					
+				}
+
+				#id-attribute{
+					color: purple;
+					background-color: lightblue;
+				}
+
+				p{
+					color: brown;
+				}
+
+				span p{
+					color: red;
+					text-align: right;
+					font-size: 30px;
+
+				}
+
+				p~ul{
+					color: pink;
+					background-color: purple;
+					text-align: left;
+				}
+
+				p:first-child{
+					color: orange;
+					font-size: 12px;
+					background-position: right;
+				}
+
+				a:link{
+					color: brown;
+				}
+
+				a:visited{
+					color: purple;
+				}
+
+				a:hover{
+					color: yellow;
+				}
+
+				a:active{
+					color: red;
+				}
+
+				input:focus{
+					color: blue;
+					width: 200px;
+				}
+
+				li{
+					color: violet;
+				}
+				li:first-child{
+					color: red;
+				}
+
+
+
+
+
