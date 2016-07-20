@@ -1,0 +1,22 @@
+
+
+
+1) CSS grouping?
+
+Ans: When many elements have the same style, we can specify a set of selectors seperated by a combinators, there are 4 different 			 combinators:
+				(i) Descendant selector(space): Eg: div p--> It selects all the <p> elements that are descendant to <div>.
+
+				(ii) child selector(>) : Eg: div>p --> Selects <p> element which is the immediate children of <div> element.
+
+				(iii) Adjacent sibling selector(+) : div+p --> Selects all <p> elements that are adjacent(immediate) siblings to <div> element.
+
+				(iv) General sibling selector(~) : Eg: div~p --> Selects all <p> elements that are siblings of <div> element. 
+
+2) Pseudo-elements?
+
+Ans: These are used to style certain parts of a document.
+		(i) ::after --> Matches virtual last child of selected elements.
+		(ii) ::before --> This is inline by default. It matches the first child of the element.
+		(iii) ::first-letter --> Selects the first letter of the first line in a block. 
+		(iv) ::first-line --> This has meaning only in a block-container. Applies style to the first line in an element.
+		(v) ::selection --> Applies rules to the portion of document that has been highlighted by mouse.				
